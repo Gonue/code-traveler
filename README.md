@@ -2,8 +2,7 @@
 
 `프로젝트 명` : Code Traveler <br>
 `프로젝트 기간` : 2023.05.01 ~ 2023.05.25 <br>
-`배포링크` : <a href="http://codetraveler.s3-website.ap-northeast-2.amazonaws.com/">🌎 Code Traveler</a> <br>
-`노션 페이지` : <a href="https://codestates.notion.site/FireSuits-6dc1a7150e464e0095f569e66bae353c">🔥 파이어수트(FireSuits)</a>
+`배포링크` : <a href="https://code-traveler.site">🌎 Code Traveler</a> <br>
 
 <br>
 
