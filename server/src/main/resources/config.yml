@@ -26,3 +26,9 @@ cloud:
 
 openai:
   api-key: ${OPEN_AI_KEY}
+
+server:
+  ssl:
+    key-store: classpath:keystore.p12
+    key-store-type: PKCS12
+    key-store-password: ${KEY_STORE_PASSWORD}

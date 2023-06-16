@@ -105,9 +105,8 @@ public class OAuth2MemberSuccessHandler extends SimpleUrlAuthenticationSuccessHa
 
             String baseUri = UriComponentsBuilder
                     .newInstance()
-                    .scheme("http")
-                    .host("codetraveler.s3-website.ap-northeast-2.amazonaws.com")
-                    .port(80)
+                    .scheme("https")
+                    .host("code-traveler.site")
                     .build()
                     .toUriString();
 
