@@ -20,11 +20,8 @@ public class MemberAuthenticationSuccessHandler implements AuthenticationSuccess
     public void onAuthenticationSuccess(HttpServletRequest request,
                                         HttpServletResponse response,
                                         Authentication authentication) throws IOException {
+        response.setContentType("application/json");
+        response.getWriter().write(new ObjectMapper().writeValueAsString(Response.success()));
         log.info("# Authenticated successfully!");
-        response.setStatus(HttpStatus.OK.value());
-        response.setContentType("application/json;charset=UTF-8");
-        Response responses = new Response("SUCCESS", null);
-        ObjectMapper objectMapper = new ObjectMapper();
-        objectMapper.writeValue(response.getWriter(), responses);
     }
 }
